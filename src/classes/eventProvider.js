@@ -56,7 +56,7 @@
             grid.$root.find('.ngHeaderSortColumn').draggable({
                 helper: 'clone',
                 appendTo: 'body',
-                stack: 'div',
+                stack: '.ngGrid div',
                 addClasses: false,
                 start: function(event) {
                     self.onHeaderMouseDown(event);
