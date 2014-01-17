@@ -1,3 +1,10 @@
+<a name="2.0.7.1"></a>
+## 2.0.7.1 *(2014-01-16)*
+by KKrisu
+
+### Features
+- Added jqueryUIDraggableZIndex option which is passed to jqueryUI draggable as zIndex parameter. Stack parameter is no longer set for jqueryUI draggable.
+
 <a name="2.0.6"></a>
 ## 2.0.6 *(2013-06-?)*
 
