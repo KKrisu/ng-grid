@@ -2,7 +2,7 @@
 * ng-grid JavaScript Library
 * Authors: https://github.com/angular-ui/ng-grid/blob/master/README.md 
 * License: MIT (http://www.opensource.org/licenses/mit-license.php)
-* Compiled At: 01/17/2014 14:22
+* Compiled At: 03/26/2014 14:01
 ***********************************************/
 (function(window, $) {
 'use strict';
@@ -1722,11 +1722,7 @@ var ngGrid = function ($scope, options, sortService, domUtilityService, $filter,
                     domUtilityService.setColLeft(col, newLeft, self);
                     totalLeft += col.width;
                 } else {
-                    if (w >= scrollLeft) {
-                        if (colwidths <= scrollLeft + self.rootDim.outerWidth) {
                             addCol(col);
-                        }
-                    }
                 }
                 colwidths += col.width;
             }
